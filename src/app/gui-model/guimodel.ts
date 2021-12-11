@@ -299,7 +299,7 @@ export class GuiModel {
                             "type": "backbutton",
                         },
                         {
-                            "type": "newButton",
+                            "type": "button",
                             "name": "EditFriend",
                             "icon": "fa-user",
                             "color": "green",
@@ -389,7 +389,7 @@ export class GuiModel {
                             "type": "backbutton", 
                         }, 
                         { 
-                            "type": "newButton", 
+                            "type": "button", 
                             "name": "EditActivity", 
                             "icon": "fa-running", 
                             "color": "green", 
