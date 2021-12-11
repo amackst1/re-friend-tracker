@@ -377,8 +377,34 @@ export class GuiModel {
                             "color": "blue",
                             "search": true,
                             "url": "/activity",
+                            "page": "activitydetail",
+                        },
+                    
+                ] 
+                },
+                { 
+                    "id": "activitydetail", 
+                    "elementList": [ 
+                        { 
+                            "type": "backbutton", 
+                        }, 
+                        { 
+                            "type": "newButton", 
+                            "name": "EditActivity", 
+                            "icon": "fa-running", 
+                            "color": "green", 
+                            "form": { 
+                                "form": "ActivityForm" 
+                            } 
+                        },
+                        {
+                            "type": "list",
+                            "icon": "fa-running",
+                            "color": "blue",
+                            "search": true,
+                            "url": "/activity/:activityKey/friend",
                             "form": {
-                                "form": "ActivityForm"
+                                "form": "FriendForm"
                             }
                         },
                     
